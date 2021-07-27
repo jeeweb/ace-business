@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/style.css">
+	<title>ACE Business Portal</title>
+</head>
+
+<body>
+	<div class="wrap">
+		<header class="header user-header">
+			<div class="header-top">
+				<a href="../crm/opportunities-form.html" class="no-mobile">
+					<h1 class="logo logo-line">
+						<p class="mark">
+							<span>A</span>
+						</p>
+						<p>
+							<span>ACE Business Portal</span>
+							<span>Agile Centric Efficiency</span>
+						</p>
+					</h1>
+				</a>
+				<button type="button" class="button__back mobile">
+					<span class="icon icon-prev-page"></span>
+					<span class="blind">이전페이지</span>
+				</button>
+				<h2 class="section__title mobile">유연 근무 등록</h2>
+				<ul class="util-menu no-mobile">
+					<li class="util-menu__link">
+						<button class="button">관리자 페이지</button>
+					</li>
+					<li class="util-menu__link">
+						<button type="button" class="button__alert">
+							<span class="icon icon-alert">
+								<span class="blind">알림</span>
+							</span>
+						</button>
+					</li>
+					<li class="util-menu__link">
+						<a href="../mypage.html">
+							<div class="user-name">
+								<div class="img-user">
+									<img src="../images/sample1.jpeg" alt="">
+								</div>
+								<p>홍길동</p>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<nav class="gnb">
+				<button type="button" class="lnb-icon flex-box no-mobile">
+					<div class="button__lnb">
+						<span class="nav-bar"></span>
+						<span class="nav-bar"></span>
+						<span class="nav-bar"></span>
+					</div>
+					<span>메뉴</span>
+				</button>
+				<div class="nav-icon mobile">
+					<button type="button" class="button__nav">
+						<span class="nav-bar"></span>
+						<span class="nav-bar"></span>
+						<span class="nav-bar"></span>
+					</button>
+				</div>
+				<div class="gnb-wrap">
+					<div class="gnb-top mobile">
+						<div class="user-name">
+							<div class="img-user">
+								<img src="../images/sample1.jpeg" alt="">
+							</div>
+							<div class="user-info-box">
+								<p class="info__name">
+									<span class="bold">홍길동</span> 님
+								</p>
+								<p class="info__dept">컨설팅본부</p>
+								<p class="info__id">사원번호 <span class="bold">676324</span></p>
+							</div>
+						</div>
+						<a href="my/myPage" class="link link-mypage flex-box">마이페이지</a>
+					</div>
+					<ul class="lst-gnb">
+						<li class="lst-gnb__item">
+							<span>영업 CRM</span>
+							<div class="gnb-sub">
+								<ul class="lst-gnb-sub">
+									<li class="lst-sub__title">
+										<p>영업 기회</p>
+									</li>
+									<li class="lst-sub__item">
+										<a href="../crm/opportunities-form.html" class="lst-sub__link">
+											<span>영업 기회 등록</span>
+										</a>
+									</li>
+									<li class="lst-sub__item">
+										<a href="../crm/opportunities.html" class="lst-sub__link">
+											<span>영업 기회 현황</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="lst-gnb__item">
+							<span>유연 근무</span>
+							<div class="gnb-sub">
+								<ul class="lst-gnb-sub">
+									<li class="lst-sub__title">
+										<p>유연 근무 유형</p>
+									</li>
+									<li class="lst-lnb__item">
+										<a href="../agile/agile-working-form.html" class="lst-sub__link">
+											<span>유연 근무 등록</span>
+										</a>
+									</li>
+									<li class="lst-sub__item">
+										<a href="../agile/agile-working-list.html" class="lst-sub__link">
+											<span>유연 근무 조회</span>
+										</a>
+									</li>
+								</ul>
+								<ul class="lst-gnb-sub">
+									<li class="lst-sub__title">
+										<p>근태 관리</p>
+									</li>
+									<li class="lst-sub__item">
+										<a href="../agile/attendance.html" class="lst-sub__link">
+											<span>출/퇴근 등록</span>
+										</a>
+									</li>
+									<li class="lst-sub__item">
+										<a href="../agile/working-time.html" class="lst-sub__link">
+											<span>근무 실적 조회</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="lst-gnb__item on">
+							<span>EIS</span>
+							<div class="gnb-sub">
+								<ul class="lst-gnb-sub">
+									<li class="lst-sub__title">
+										<p>재무 관리</p>
+									</li>
+									<li class="lst-sub__item">
+										<a href="../eis/financial-analysis.html" class="lst-sub__link">
+											<span>재무 분석</span>
+										</a>
+									</li>
+									<li class="lst-sub__item on">
+										<a href="../eis/profit-and-loss.html" class="lst-sub__link">
+											<span>손익 분석</span>
+										</a>
+									</li>
+								</ul>
+								<ul class="lst-gnb-sub">
+									<li class="lst-sub__title">
+										<p>CRM</p>
+									</li>
+									<li class="lst-sub__item">
+										<a href="../eis/crm-opportunities.html" class="lst-sub__link">
+											<span>영업 기회 분석</span>
+										</a>
+									</li>
+									<li class="lst-sub__item">
+										<a href="../eis/crm-activities.html" class="lst-sub__link">
+											<span>영업 활동 분석</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+					<div class="buttons mobile">
+						<button class="button__admin">
+							<span class="icon icon-module"></span>
+							관리자 페이지
+						</button>
+						<button class="button__logout">
+							<span class="icon icon-logout"></span>
+							로그아웃
+						</button>
+					</div>
+					<button class="button__close mobile">
+						<span class="icon icon-close"></span>
+					</button>
+				</div>
+			</nav>
+		</header>
+		<div class="lnb">
+			<ul class="lst-lnb lst-lnb__eis">
+				<li class="lst-lnb__item">
+					<div>EIS</div>
+					<ul>
+						<li class="lst-lnb__item show">
+							<div>
+								재무 관리
+								<span>-</span>
+							</div>
+							<ul>
+								<li class="lst-lnb__item">
+									<div>
+										<a href="financial-analysis.html" class="lst-lnb__link">
+											<span>재무 분석</span>
+										</a>
+									</div>
+								</li>
+								<li class="lst-lnb__item">
+									<div>
+										<a href="profit-and-loss.html" class="lst-lnb__link">
+											<span>손익 분석</span>
+										</a>
+									</div>
+								</li>
+							</ul>
+						</li>
+						<li class="lst-lnb__item show">
+							<div>
+								CRM
+								<span>-</span>
+							</div>
+							<ul>
+								<li class="lst-lnb__item">
+									<div>
+										<a href="crm-opportunities.html" class="lst-lnb__link">
+											<span>영업 기회 분석</span>
+										</a>
+									</div>
+								</li>
+								<li class="lst-lnb__item">
+									<div>
+										<a href="crm-activities.html" class="lst-lnb__link">
+											<span>영업 활동 분석</span>
+										</a>
+									</div>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+
+		<div class="container user-container">
+			<section class="section__contents">
+				<div class="inner-wrap">
+					<div class="section-top">
+						<h3 class="section__title">손익 분석</h3>
+						<div class="input-box">
+							<div class="input-box input-box-icon">
+								<input class="input input-icon" type="text" placeholder="기준년월">
+								<span class="icon icon-calendar"></span>
+							</div>
+							<div class="input-select input-box input-box-icon">
+								<select name="" id="" class="selectbox">
+									<option>2020</option>
+									<option>2019</option>
+								</select>
+								<span class="icon icon-arrow"></span>
+							</div>
+							<button type="button" class="button button__search">
+								조회
+							</button>
+						</div>
+					</div>
+					<div class="component-area">
+						<div class="table-wrap table--horizontal">
+							<table class="table">
+								<colgroup>
+									<col />
+									<col />
+									<col />
+									<col />
+									<col />
+									<col />
+									<col />
+									<col />
+									<col class="highlight" />
+									<col class="highlight" />
+									<col class="highlight" />
+									<col class="highlight" />
+								</colgroup>
+								<thead>
+									<tr>
+										<th rowspan="2">구분</th>
+										<th rowspan="2">당월</th>
+										<th rowspan="2">전월</th>
+										<th rowspan="2">전년동기</th>
+										<th colspan="2">전월 대비</th>
+										<th colspan="2">전년동기 대비</th>
+										<th rowspan="2" class="highlight">당기 누계</th>
+										<th rowspan="2" class="highlight">전기 누계</th>
+										<th colspan="2" class="highlight">전년 대비</th>
+									</tr>
+									<tr>
+										<th>증감액</th>
+										<th>증감율(%)</th>
+										<th>증감액</th>
+										<th>증감율(%)</th>
+										<th class="highlight">증감액</th>
+										<th class="highlight">증감율(%)</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr class="row">
+										<td class="bold">매출액</td>
+										<td class="data__number">1,226.0</td>
+										<td class="data__number">986.0</td>
+										<td class="data__number">1,470.0</td>
+										<td class="data__number status--up"><span class="icon-triangle"></span>240.0</td>
+										<td class="data__number status--up"><span class="icon-triangle"></span>24.3%</td>
+										<td class="data__number status--down"><span class="icon-triangle"></span>244.0</td>
+										<td class="data__number status--down"><span class="icon-triangle"></span>16.6%</td>
+										<td class="data__number">1,363.0</td>
+										<td class="data__number">1,381.0</td>
+										<td class="data__number status--down"><span class="icon-triangle"></span>18.0</td>
+										<td class="data__number status--down"><span class="icon-triangle"></span>1.3%</td>
+									</tr>
+									<tr class="row">
+										<td class="bold">매출원가</td>
+										<td class="data__number">528.0</td>
+										<td class="data__number">391.0</td>
+										<td class="data__number">602.0</td>
+										<td class="data__number status--up"><span class="icon-triangle"></span>137.0</td>
+										<td class="data__number status--up"><span class="icon-triangle"></span>35.0%</td>
+										<td class="data__number status--down"><span class="icon-triangle"></span>74.0</td>
+										<td class="data__number status--down"><span class="icon-triangle"></span>12.3%</td>
+										<td class="data__number">550.0</td>
+										<td class="data__number">550.0</td>
+										<td class="data__number status--up"><span class="icon-triangle"></span>0.0</td>
+										<td class="data__number status--up"><span class="icon-triangle"></span>0.0%</td>
+									</tr>
+									<tr class="row">
+										<td class="bold">매출총이익</td>
+										<td class="data__number">1,226.0</td>
+										<td class="data__number">986.0</td>
+										<td class="data__number">1,470.0</td>
+										<td class="data__number status--up"><span class="icon-triangle"></span>240.0</td>
+										<td class="data__number status--up"><span class="icon-triangle"></span>24.3%</td>
+										<td class="data__number status--down"><span class="icon-triangle"></span>244.0</td>
+										<td class="data__number status--down"><span class="icon-triangle"></span>16.6%</td>
+										<td class="data__number">1,363.0</td>
+										<td class="data__number">1,381.0</td>
+										<td class="data__number status--down"><span class="icon-triangle"></span>18.0</td>
+										<td class="data__number status--down"><span class="icon-triangle"></span>1.3%</td>
+									</tr>
+									<tr class="row">
+										<td class="bold">판매관리비</td>
+										<td class="data__number">528.0</td>
+										<td class="data__number">391.0</td>
+										<td class="data__number">602.0</td>
+										<td class="data__number status--up"><span class="icon-triangle"></span>137.0</td>
+										<td class="data__number status--up"><span class="icon-triangle"></span>35.0%</td>
+										<td class="data__number status--down"><span class="icon-triangle"></span>74.0</td>
+										<td class="data__number status--down"><span class="icon-triangle"></span>12.3%</td>
+										<td class="data__number">550.0</td>
+										<td class="data__number">550.0</td>
+										<td class="data__number status--up"><span class="icon-triangle"></span>0.0</td>
+										<td class="data__number status--up"><span class="icon-triangle"></span>0.0%</td>
+									</tr>
+									<tr class="row">
+										<td class="bold">영업이익</td>
+										<td class="data__number">1,226.0</td>
+										<td class="data__number">986.0</td>
+										<td class="data__number">1,470.0</td>
+										<td class="data__number status--up"><span class="icon-triangle"></span>240.0</td>
+										<td class="data__number status--up"><span class="icon-triangle"></span>24.3%</td>
+										<td class="data__number status--down"><span class="icon-triangle"></span>244.0</td>
+										<td class="data__number status--down"><span class="icon-triangle"></span>16.6%</td>
+										<td class="data__number">1,363.0</td>
+										<td class="data__number">1,381.0</td>
+										<td class="data__number status--down"><span class="icon-triangle"></span>18.0</td>
+										<td class="data__number status--down"><span class="icon-triangle"></span>1.3%</td>
+									</tr>
+									<tr class="row">
+										<td class="bold">당기순이익</td>
+										<td class="data__number">528.0</td>
+										<td class="data__number">391.0</td>
+										<td class="data__number">602.0</td>
+										<td class="data__number status--up"><span class="icon-triangle"></span>137.0</td>
+										<td class="data__number status--up"><span class="icon-triangle"></span>35.0%</td>
+										<td class="data__number status--down"><span class="icon-triangle"></span>74.0</td>
+										<td class="data__number status--down"><span class="icon-triangle"></span>12.3%</td>
+										<td class="data__number">550.0</td>
+										<td class="data__number">550.0</td>
+										<td class="data__number"><span class="icon-triangle"></span>0.0</td>
+										<td class="data__number"><span class="icon-triangle"></span>0.0%</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+
+	<script>
+
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,390 @@
+/* 유연근무 - 출/퇴근 등록 */
+.time-recording-wrap{
+	display: flex;
+	flex-direction: column;
+}
+.time-recording-wrap > p:first-child{
+	font-size: 16px;
+	line-height: 1.4;
+}
+.time-recording-wrap > p:first-child .bold{
+	font-size: 20px;
+	letter-spacing: 0.08em;
+}
+
+.time-recording-wrap .clock{
+	font-size: 24px;
+	font-weight: 700;
+	color: #3C7DFF;
+	padding: 12px 0 10px;
+}
+.time-recording-wrap .buttons .button{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	flex-grow: 1;
+	font-size: 14px;
+	padding: 6px 0;
+	border-radius: 8px;
+}
+.time-recording-wrap .button .stamp-time{
+	font-size: 0.9em;
+	padding-top: 4px;
+}
+
+.component-box .status-time{
+	padding: 12px 0 20px;
+}
+
+.info-attendance .component-area:not(.stamp-time) .component-box:last-child{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.info-attendance .component-area .component-box:last-child > span{
+	font-size: 0.86em;
+	color: #67707c;
+}
+
+.lst-working{
+	display: flex;
+}
+.lst-working > ul{
+	display: none;
+}
+.lst-working.show > ul{
+	display: flex;
+	border: 1px solid #b2bbca;
+	border-radius: 4px;
+	margin-left: 8px;
+}
+.lst-working > ul li{
+	padding: 8px;
+	color: #666;
+	font-size: 0.86em;
+}
+
+/* 임시 progress-bar */
+.info-attendance .component-area:nth-child(2) .progress__bar1 .progress__bar{
+	width: 90%;
+}
+.info-attendance .component-area:nth-child(3) .progress__bar1 .progress__bar{
+	width: 100%;
+}
+.info-attendance .component-area:nth-child(3) .progress__bar2 .progress__bar{
+	width: 100%;
+}
+.info-attendance .component-area:nth-child(4) .progress__bar{
+	width: 70%;
+}
+
+/* eis - 재무 분석 */
+.component__fa-1 .content__title .link{
+	margin-left: 24px;
+	font-size: 0.78em;
+	font-weight: 400;
+}
+.component__fa-1 .component-area{
+	flex-grow: 1;
+}
+.component__fa-1 .component__title{
+	color: #fff;
+}
+.component__fa-1 .box:nth-child(4) .box-cnt > .flex-box,
+.component__fa-1 .box:nth-child(5) .box-cnt > .flex-box{
+	justify-content: center;
+}
+
+.component__fa-2{
+	margin-top: 32px;
+}
+.component__fa-2 > .flex-box + .flex-box{
+	margin-top: 24px;
+}
+.component__fa-2 .flex-box > .component-area {
+	margin-top: 0;
+	flex-grow: 1;
+
+}
+.component__fa-2 .flex-box > .component-area + .component-area{
+	margin-left: 16px;
+}
+.component__fa-2 .component-box-top{
+	justify-content: center;
+	color:#8293A7;
+}
+.component__fa-2 .status--up.flex-box,
+.component__fa-2 .status--down.flex-box{
+	align-items: center;
+	justify-content: center;/* 추가 */
+}
+
+
+/* eis - 영업 실적 분석 */
+.component__p-1 .status--up .bold span,
+.component__p-1 .status--down .bold span{
+	display: inline-block;
+	margin-left: 8px;
+	color: inherit;
+}
+
+/* eis-영업기회분석, 영업활동분석, 영업매출분석 */
+/* .component__o-2 .component-area > .lst-cards{
+	padding: 16px 0;
+	border-top: 2px solid #e8ebf0;
+}
+.component__o-2 .component-area > .lst-cards:first-child{
+	padding-top: 0;
+	border-top: 0;
+}
+.component__o-2 .component-area > .lst-cards.lst-cards__6colums > .flex-box{
+	align-items: center;
+}
+.component__o-2 .component-area > .lst-cards.lst-cards__6colums > .flex-box:first-child{
+	grid-column: 1 / 7;
+	justify-content: space-between;
+	margin-bottom: 8px;
+}
+.component__o-2 .component-area > .lst-cards.lst-cards__6colums > .flex-box:first-child > .component__title{
+	font-size: 1.2em;
+}
+.component__o-2 .component-area > .lst-cards.lst-cards__6colums > .flex-box .lst-status{
+	font-size: 1em;
+	margin: 0 16px 0 0;
+}
+.component__o-2 .component-area > .lst-cards.lst-cards__6colums > .detail{
+	grid-column: 1 / 7;
+	font-size: 0.88em;
+	margin-top: 8px;
+}
+.component__o-2 .component-area > .lst-cards.lst-cards__6colums > .detail .table th{
+	background-color: #3C7DFF;
+	box-shadow: inset -1px 0 0 #e7ecf0, inset 0 -1px 0 #e7ecf0, inset 0 1px 0 #3C7DFF;
+} */
+
+.component__rp-1 .component-box-top{
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.component__rp-1 .component-area .component-box-top .component__title{
+	color: #fff;
+}
+.component__rp-1 .status-txt--large .bold{
+	font-size: inherit;
+}
+.component__rp-1 .status-txt--large .bold + p{
+	font-size: 0.88em;
+	margin-top: 4px;
+}
+
+/* eis - 프로젝트원가분석 */
+.component__ca-1 .lst-cards__4colums > .box:first-child{
+	grid-row: 1 / 3;
+}
+.component__ca-1 .lst-cards__4colums > .box:first-child .bold{
+	padding-bottom: 8px;
+	font-size: 1.2em;
+}
+.component__ca-1 .lst-cards__4colums > .box:first-child .bold ~ p:last-child{
+	padding-top: 8px;
+	color: #8293A7;
+	font-size: 0.88em;
+}
+.component__ca-1 .component-area:nth-child(2n) .lst-cards__4colums > .box > .box-top{
+	background-color: #6e11d1;
+}
+.component__ca-1 .component-area:nth-child(2n) .lst-cards__4colums > .box .box .box-top{
+	background-color: #912EFD;
+}
+
+
+/* eis - 구매실적 */
+.component__pp-1 .status--up .bold span,
+.component__pp-1 .status--down .bold span{
+	display: inline-block;
+	margin-left: 8px;
+	color: inherit;
+}
+
+/* eis - 생산실적 */
+.component__ao-1 .component-area > .lst-cards + .lst-cards{
+	margin-top: 24px;
+}
+.component__ao-1 .lst-cards.lst-cards__2colums > div.flex-box:first-child > .box,
+.component__ao-1 .lst-cards.lst-cards__2colums > div.flex-box:last-child > .lst-cards{
+	flex-grow: 1;
+}
+.component__ao-1 .lst-cards.lst-cards__2colums > div.flex-box:last-child > .lst-cards.lst-cards__2colums{
+	margin-left: 16px;
+}
+.component__ao-1 .lst-cards.lst-cards__2colums > div.flex-box:last-child .box-cnt .flex-box{
+	justify-content: center;
+}
+.component__ao-3 .component-box-top > .input-box > div{
+	display: flex;
+}
+.component__ao-3 .component-box-top > .input-box > div > .input-box{
+	margin-right: 16px;
+}
+
+
+/* web주문 - 주문서*/
+.component__order-1.component__iv-1  .component-box.flex-box > div + div{
+	margin-left: 24px;
+}
+.component__order-1.component__iv-1 .component-box:first-child .company-name{
+	font-size: 1.2em;
+}
+.component__order-1.component__iv-1 .component-box:first-child p:nth-child(2){
+	padding: 8px 0 4px;
+}
+
+
+@media (max-width: 1670px) {
+	/* eis-재무분석 */
+	.component__fa-1.component__eis-1 > .flex-box{
+		flex-direction: column;
+	}
+	.component__fa-1.component__eis-1 .flex-box .component-area + .component-area{
+		margin-top: 16px;
+		margin-left: 0;
+	}
+}
+
+
+@media (max-width: 1439px) {
+	/* eis-재무분석 */
+	.component__fa-2 > .flex-box{
+		flex-direction: column;
+	}
+	.component__fa-2 .flex-box > .component-area + .component-area{
+		margin-left: 0;
+		margin-top: 24px;
+	}
+
+	/* eis - 프로젝트원가분석 */
+	.component__ca-1 .lst-cards.lst-cards__4colums{
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.component__ca-1 .lst-cards.lst-cards__4colums > .box:first-child{
+		grid-row: 1 / 2;
+		grid-column: 1 / 4;
+	}
+
+	/* eis - 생산실적 */
+	.component__ao-1 .lst-cards + .lst-cards{
+		margin-top: 8px;
+	}	
+	.component__ao-1 .lst-cards.lst-cards__2colums > div.flex-box:last-child{
+		flex-direction: column;
+	}
+	.component__ao-1 .lst-cards.lst-cards__2colums > div.flex-box:last-child > .lst-cards.lst-cards__2colums{
+		margin-left: 0;
+	}
+
+	/* eis - 구매실적 */
+	.component__pp-1 .chart-wrap{
+		height: 260px;
+	}
+}
+
+
+@media (max-width: 768px) {
+
+	/* eis - 재무 분석 */
+	.component__fa-1 .lst-cards.lst-cards__5colums{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.component__fa-1 .lst-cards.lst-cards__5colums > .box{
+		width: 30%;
+	}
+	.component__fa-1 .lst-cards.lst-cards__5colums > .box:nth-child(4){
+		margin-left: 0;
+	}
+	.component__fa-1 .lst-cards.lst-cards__5colums > .box:nth-child(4),
+	.component__fa-1 .lst-cards.lst-cards__5colums > .box:nth-child(5){
+		margin-top: 8px;
+		width: 47%;
+	}
+
+	.component__fa-2 .lst-cards.lst-cards__3colums{
+		display: flex;
+		flex-direction: column;
+	}
+	.component__fa-2 .lst-cards.lst-cards__3colums > div + div{
+		margin-top: 24px;
+	}
+
+	/* eis - 영업실적분석 */
+	.component__p-1 .lst-cards .status-txt--large{
+		font-size: 1.16em;
+	}
+	.component__p-1 > .flex-box:first-of-type .lst-cards__2colums .status-txt--large > span{
+		display: block;
+		margin-left: 0px;
+	}
+	.component__p-2 .chart-wrap1{
+		height: 220px;
+		width: 110%;
+		transform: translateX(-24px);
+	}
+	.component__p-3 .chart-wrap{
+		width: 115%;
+		transform: translateX(-28px);
+	}
+
+	/* eis - crm */
+	.component__o-1 .lst-cards.lst-cards__6colums, 
+	.component__a-1 .lst-cards.lst-cards__6colums,
+	.component__rp-1 .lst-cards.lst-cards__6colums{
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	/* .component__o-2 .component-area > .lst-cards.lst-cards__6colums{
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.component__o-2 .component-area > .lst-cards.lst-cards__6colums > .flex-box:first-child,
+	.component__o-2 .component-area > .lst-cards.lst-cards__6colums > .detail{
+		grid-column: 1 / 4;
+	} */
+
+	/* eis - 프로젝트원가분석 */
+	.component__ca-1 .lst-cards.lst-cards__4colums{
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.component__ca-1 .lst-cards.lst-cards__4colums > .box:first-child{
+		grid-column: 1 / 2;
+	}
+
+	/* eis - 생산실적 */
+	.component__ao-1 .lst-cards{
+		grid-gap: 4px;
+	}
+	.component__ao-1 .lst-cards + .lst-cards{
+		margin-top: 4px;
+	}	
+	.component__ao-1 .component-area > .lst-cards.lst-cards__2colums{
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.component__ao-3 .component-box-top > .input-box {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.component__ao-3 .component-box-top > .input-box > div{
+		margin-left: 0;
+		margin-top: 4px;
+	}
+	.component__ao-3 .component-box-top > .input-box > div > .input-box{
+		margin-right: 4px;
+	}
+	.component__ao-3 .component-box-top > .input-box > div .input{
+		width: 40%;
+	}
+}

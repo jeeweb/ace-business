@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>ACE Business Portal</title>
+</head>
+
+<body>
+	<div class="wrap">
+		<header class="header user-header">
+			<div class="header-top">
+				<a href="crm/opportunities-form.html" class="no-mobile">
+					<h1 class="logo logo-line">
+						<p class="mark">
+							<span>A</span>
+						</p>
+						<p>
+							<span>ACE Business Portal</span>
+							<span>Agile Centric Efficiency</span>
+						</p>
+					</h1>
+				</a>
+				<button type="button" class="button__back mobile">
+					<span class="icon icon-prev-page"></span>
+					<span class="blind">이전페이지</span>
+				</button>
+				<h2 class="section__title mobile">유연 근무 등록</h2>
+				<ul class="util-menu no-mobile">
+					<li class="util-menu__link">
+						<button class="button">관리자 페이지</button>
+					</li>
+					<li class="util-menu__link">
+						<button type="button" class="button__alert">
+							<span class="icon icon-alert">
+								<span class="blind">알림</span>
+							</span>
+						</button>
+					</li>
+					<li class="util-menu__link">
+						<a href="mypage.html">
+							<div class="user-name">
+								<div class="img-user">
+									<img src="images/sample1.jpeg" alt="">
+								</div>
+								<p>홍길동</p>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<nav class="gnb">
+				<button type="button" class="lnb-icon flex-box no-mobile">
+					<div class="button__lnb">
+						<span class="nav-bar"></span>
+						<span class="nav-bar"></span>
+						<span class="nav-bar"></span>
+					</div>
+					<span>메뉴</span>
+				</button>
+				<div class="nav-icon mobile">
+					<button type="button" class="button__nav">
+						<span class="nav-bar"></span>
+						<span class="nav-bar"></span>
+						<span class="nav-bar"></span>
+					</button>
+				</div>
+				<div class="gnb-wrap">
+					<div class="gnb-top mobile">
+						<div class="user-name">
+							<div class="img-user">
+								<img src="images/sample1.jpeg" alt="">
+							</div>
+							<div class="user-info-box">
+								<p class="info__name">
+									<span class="bold">홍길동</span> 님
+								</p>
+								<p class="info__dept">컨설팅본부</p>
+								<p class="info__id">사원번호 <span class="bold">676324</span></p>
+							</div>
+						</div>
+						<a href="my/myPage" class="link link-mypage flex-box">마이페이지</a>
+					</div>
+					<ul class="lst-gnb">
+						<li class="lst-gnb__item">
+							<span>영업 CRM</span>
+							<div class="gnb-sub">
+								<ul class="lst-gnb-sub">
+									<li class="lst-sub__title">
+										<p>영업 기회</p>
+									</li>
+									<li class="lst-sub__item">
+										<a href="crm/opportunities-form.html" class="lst-sub__link">
+											<span>영업 기회 등록</span>
+										</a>
+									</li>
+									<li class="lst-sub__item">
+										<a href="crm/opportunities.html" class="lst-sub__link">
+											<span>영업 기회 현황</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="lst-gnb__item">
+							<span>유연 근무</span>
+							<div class="gnb-sub">
+								<ul class="lst-gnb-sub">
+									<li class="lst-sub__title">
+										<p>유연 근무 유형</p>
+									</li>
+									<li class="lst-lnb__item">
+										<a href="agile/agile-working-form.html" class="lst-sub__link">
+											<span>유연 근무 등록</span>
+										</a>
+									</li>
+									<li class="lst-sub__item">
+										<a href="agile/agile-working-list.html" class="lst-sub__link">
+											<span>유연 근무 조회</span>
+										</a>
+									</li>
+								</ul>
+								<ul class="lst-gnb-sub">
+									<li class="lst-sub__title">
+										<p>근태 관리</p>
+									</li>
+									<li class="lst-sub__item">
+										<a href="agile/attendance.html" class="lst-sub__link">
+											<span>출/퇴근 등록</span>
+										</a>
+									</li>
+									<li class="lst-sub__item">
+										<a href="agile/working-time.html" class="lst-sub__link">
+											<span>근무 실적 조회</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="lst-gnb__item">
+							<span>EIS</span>
+							<div class="gnb-sub">
+								<ul class="lst-gnb-sub">
+									<li class="lst-sub__title">
+										<p>재무 관리</p>
+									</li>
+									<li class="lst-sub__item">
+										<a href="eis/financial-analysis.html" class="lst-sub__link">
+											<span>재무 분석</span>
+										</a>
+									</li>
+									<li class="lst-sub__item">
+										<a href="eis/profit-and-loss.html" class="lst-sub__link">
+											<span>손익 분석</span>
+										</a>
+									</li>
+								</ul>
+								<ul class="lst-gnb-sub">
+									<li class="lst-sub__title">
+										<p>CRM</p>
+									</li>
+									<li class="lst-sub__item">
+										<a href="eis/crm-opportunities.html" class="lst-sub__link">
+											<span>영업 기회 분석</span>
+										</a>
+									</li>
+									<li class="lst-sub__item">
+										<a href="eis/crm-activities.html" class="lst-sub__link">
+											<span>영업 활동 분석</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+					<div class="buttons mobile">
+						<button class="button__admin">
+							<span class="icon icon-module"></span>
+							관리자 페이지
+						</button>
+						<button class="button__logout">
+							<span class="icon icon-logout"></span>
+							로그아웃
+						</button>
+					</div>
+					<button class="button__close mobile">
+						<span class="icon icon-close"></span>
+					</button>
+				</div>
+			</nav>
+		</header>
+		<div class="container mypage-container">
+			<section class="section__contents section__mypage">
+				<div class="inner-wrap">
+					<div class="component-area">
+						<div class="component-box">
+							<div class="user-info">
+								<div class="img-user img-user--large">
+									<img src="/images/sample1.jpeg" alt="" />
+								</div>
+								<div class="user-info-box">
+									<p class="info__name"><span class="bold">홍길동</span> 차장</p>
+									<p class="info__dept">컨설팅본부</p>
+									<p class="info__id">사원번호 <span class="bold">676324</span></p>
+								</div>
+							</div>
+						</div>
+						<div class="component-box">
+							<div class="component-box-top">
+								<p class="component__title">아이디</p>
+							</div>
+							<div class="component-box-cnt">
+								<div class="input-box">
+									<input class="input" type="text" placeholder="아이디" readonly>
+								</div>
+							</div>
+						</div>
+						<div class="component-box">
+							<div class="component-box-top">
+								<p class="component__title">비밀번호</p>
+							</div>
+							<div class="component-box-cnt">
+								<button type="button" class="button">비밀번호 변경</button>
+							</div>
+						</div>
+						<div class="component-box">
+							<div class="component-box-top">
+								<p class="component__title">휴대폰번호</p>
+							</div>
+							<div class="component-box-cnt">
+								<div class="input-box">
+									<input class="input" type="text" placeholder="010-1234-5678" readonly>
+								</div>
+								<button type="button" class="button">휴대폰번호 변경</button>
+							</div>
+						</div>
+						<div class="component-box">
+							<div class="component-box-top">
+								<p class="component__title">E-mail</p>
+							</div>
+							<div class="component-box-cnt">
+								<div class="input-box">
+									<input class="input" type="email" placeholder="email@email.com" readonly>
+								</div>
+								<button type="button" class="button">E-mail 변경</button>
+							</div>
+						</div>
+						<div class="component-box">
+							<div class="component-box-top">
+								<p class="component__title">사진 변경</p>
+							</div>
+							<div class="component-box-cnt">
+								<div class="input-box">
+									<input class="input" type="file">
+								</div>
+								<p class="msg-state">3MB 미만의 JPG, GIF, PNG 파일만 등록 가능합니다.</p>
+							</div>
+						</div>
+					</div>
+					<div class="buttons-complete">
+						<button type="button" class="button button__submit">
+							수정
+						</button>
+					</div>
+				</div>
+			</section>
+
+			<div class="popup popup__info-change popup__pw">
+				<div class="component-area">
+					<div class="inner-wrap">
+						<div class="popup-top">
+							<strong class="popup__title">비밀번호 변경</strong>
+						</div>
+						<div class="popup-contents">
+							<div class="component-box">
+								<div class="input-box">
+									<input type="password" class="input" placeholder="현재 비밀번호를 입력하세요" />
+								</div>
+								<div class="input-box">
+									<input type="password" class="input" placeholder="새 비밀번호를 입력하세요" />
+								</div>
+								<div class="input-box">
+									<input type="password" class="input" placeholder="새 비밀번호를 다시 입력하세요" />
+								</div>
+							</div>
+							<div class="component-box">
+								<p class="msg-info">- 영문, 숫자, 특수문자 조합 6~12 자리로 설정</p>
+								<p class="msg-info">- 아이디와 동일한 비밀번호는 사용 불가</p>
+								<p class="msg-info">- 3자리 이상 동일문구(영문, 숫자, 특수문자)는 사용 불가</p>
+							</div>
+							<div class="popup-bottom buttons-complete">
+								<div class="buttons">
+									<button type="submit" class="button button__save">변경</button>
+									<button type="button" class="button button__cancel">취소</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button type="button" class="button__close" @click="closeModal">
+						<span class="icon icon-close"></span>
+						<span class="blind">닫기</span>
+					</button>
+				</div>
+			</div>
+			<div class="popup popup__info-change popup__phone">
+				<div class="component-area">
+					<div class="inner-wrap">
+						<div class="popup-top">
+							<strong class="popup__title">휴대폰번호 변경</strong>
+						</div>
+						<div class="popup-contents">
+							<div class="component-box">
+								<div class="input-box">
+									<input type="text" class="input" placeholder="'010-XXXX-XXXX' 형식으로 입력하세요" />
+								</div>
+							</div>
+							<div class="popup-bottom buttons-complete">
+								<div class="buttons">
+									<button type="submit" class="button button__save">변경</button>
+									<button type="button" class="button button__cancel">취소</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button type="button" class="button__close" @click="closeModal">
+						<span class="icon icon-close"></span>
+						<span class="blind">닫기</span>
+					</button>
+				</div>
+			</div>
+			<div class="popup popup__info-change popup__email">
+				<div class="component-area">
+					<div class="inner-wrap">
+						<div class="popup-top">
+							<strong class="popup__title">E-mail 변경</strong>
+						</div>
+						<div class="popup-contents">
+							<div class="component-box">
+								<div class="input-box">
+									<input type="text" class="input" />
+								</div>
+							</div>
+							<div class="popup-bottom buttons-complete">
+								<div class="buttons">
+									<button type="submit" class="button button__save">변경</button>
+									<button type="button" class="button button__cancel">취소</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button type="button" class="button__close" @click="closeModal">
+						<span class="icon icon-close"></span>
+						<span class="blind">닫기</span>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script>
+
+	</script>
+</body>
+
+</html>

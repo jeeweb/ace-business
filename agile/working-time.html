@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/style.css">
+	<title>ACE Business Portal</title>
+</head>
+
+<body>
+	<div class="wrap">
+		<header class="header user-header">
+			<div class="header-top">
+				<a href="../crm/opportunities-form.html" class="no-mobile">
+					<h1 class="logo logo-line">
+						<p class="mark">
+							<span>A</span>
+						</p>
+						<p>
+							<span>ACE Business Portal</span>
+							<span>Agile Centric Efficiency</span>
+						</p>
+					</h1>
+				</a>
+				<button type="button" class="button__back mobile">
+					<span class="icon icon-prev-page"></span>
+					<span class="blind">이전페이지</span>
+				</button>
+				<h2 class="section__title mobile">유연 근무 등록</h2>
+				<ul class="util-menu no-mobile">
+					<li class="util-menu__link">
+						<button class="button">관리자 페이지</button>
+					</li>
+					<li class="util-menu__link">
+						<button type="button" class="button__alert">
+							<span class="icon icon-alert">
+								<span class="blind">알림</span>
+							</span>
+						</button>
+					</li>
+					<li class="util-menu__link">
+						<a href="../mypage.html">
+							<div class="user-name">
+								<div class="img-user">
+									<img src="../images/sample1.jpeg" alt="">
+								</div>
+								<p>홍길동</p>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<nav class="gnb">
+				<button type="button" class="lnb-icon flex-box no-mobile">
+					<div class="button__lnb">
+						<span class="nav-bar"></span>
+						<span class="nav-bar"></span>
+						<span class="nav-bar"></span>
+					</div>
+					<span>메뉴</span>
+				</button>
+				<div class="nav-icon mobile">
+					<button type="button" class="button__nav">
+						<span class="nav-bar"></span>
+						<span class="nav-bar"></span>
+						<span class="nav-bar"></span>
+					</button>
+				</div>
+				<div class="gnb-wrap">
+					<div class="gnb-top mobile">
+						<div class="user-name">
+							<div class="img-user">
+								<img src="../images/sample1.jpeg" alt="">
+							</div>
+							<div class="user-info-box">
+								<p class="info__name">
+									<span class="bold">홍길동</span> 님
+								</p>
+								<p class="info__dept">컨설팅본부</p>
+								<p class="info__id">사원번호 <span class="bold">676324</span></p>
+							</div>
+						</div>
+						<a href="my/myPage" class="link link-mypage flex-box">마이페이지</a>
+					</div>
+					<ul class="lst-gnb">
+						<li class="lst-gnb__item">
+							<span>영업 CRM</span>
+							<div class="gnb-sub">
+								<ul class="lst-gnb-sub">
+									<li class="lst-sub__title">
+										<p>영업 기회</p>
+									</li>
+									<li class="lst-sub__item">
+										<a href="../crm/opportunities-form.html" class="lst-sub__link">
+											<span>영업 기회 등록</span>
+										</a>
+									</li>
+									<li class="lst-sub__item">
+										<a href="../crm/opportunities.html" class="lst-sub__link">
+											<span>영업 기회 현황</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="lst-gnb__item on">
+							<span>유연 근무</span>
+							<div class="gnb-sub">
+								<ul class="lst-gnb-sub">
+									<li class="lst-sub__title">
+										<p>유연 근무 유형</p>
+									</li>
+									<li class="lst-lnb__item">
+										<a href="../agile/agile-working-form.html" class="lst-sub__link">
+											<span>유연 근무 등록</span>
+										</a>
+									</li>
+									<li class="lst-sub__item">
+										<a href="../agile/agile-working-list.html" class="lst-sub__link">
+											<span>유연 근무 조회</span>
+										</a>
+									</li>
+								</ul>
+								<ul class="lst-gnb-sub">
+									<li class="lst-sub__title">
+										<p>근태 관리</p>
+									</li>
+									<li class="lst-sub__item">
+										<a href="../agile/attendance.html" class="lst-sub__link">
+											<span>출/퇴근 등록</span>
+										</a>
+									</li>
+									<li class="lst-sub__item on">
+										<a href="../agile/working-time.html" class="lst-sub__link">
+											<span>근무 실적 조회</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="lst-gnb__item">
+							<span>EIS</span>
+							<div class="gnb-sub">
+								<ul class="lst-gnb-sub">
+									<li class="lst-sub__title">
+										<p>재무 관리</p>
+									</li>
+									<li class="lst-sub__item">
+										<a href="../eis/financial-analysis.html" class="lst-sub__link">
+											<span>재무 분석</span>
+										</a>
+									</li>
+									<li class="lst-sub__item">
+										<a href="../eis/profit-and-loss.html" class="lst-sub__link">
+											<span>손익 분석</span>
+										</a>
+									</li>
+								</ul>
+								<ul class="lst-gnb-sub">
+									<li class="lst-sub__title">
+										<p>CRM</p>
+									</li>
+									<li class="lst-sub__item">
+										<a href="../eis/crm-opportunities.html" class="lst-sub__link">
+											<span>영업 기회 분석</span>
+										</a>
+									</li>
+									<li class="lst-sub__item">
+										<a href="../eis/crm-activities.html" class="lst-sub__link">
+											<span>영업 활동 분석</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+					<div class="buttons mobile">
+						<button class="button__admin">
+							<span class="icon icon-module"></span>
+							관리자 페이지
+						</button>
+						<button class="button__logout">
+							<span class="icon icon-logout"></span>
+							로그아웃
+						</button>
+					</div>
+					<button class="button__close mobile">
+						<span class="icon icon-close"></span>
+					</button>
+				</div>
+			</nav>
+		</header>
+		<div class="lnb">
+			<ul class="lst-lnb lst-lnb__eis">
+				<li class="lst-lnb__item">
+					<div>유연근무</div>
+					<ul>
+						<li class="lst-lnb__item show">
+							<div>
+								유연 근무 유형
+								<span>-</span>
+							</div>
+							<ul>
+								<li class="lst-lnb__item">
+									<div>
+										<a href="agile-working-form.html" class="lst-lnb__link">
+											<span>유연 근무 등록</span>
+										</a>
+									</div>
+								</li>
+								<li class="lst-lnb__item">
+									<div>
+										<a href="agile-working-list.html" class="lst-lnb__link">
+											<span>유연 근무 조회</span>
+										</a>
+									</div>
+								</li>
+							</ul>
+						</li>
+						<li class="lst-lnb__item show">
+							<div>
+								근태 관리
+								<span>-</span>
+							</div>
+							<ul>
+								<li class="lst-lnb__item">
+									<div>
+										<a href="attendance.html" class="lst-lnb__link">
+											<span>출/퇴근 등록</span>
+										</a>
+									</div>
+								</li>
+								<li class="lst-lnb__item">
+									<div>
+										<a href="working-time.html" class="lst-lnb__link">
+											<span>근무 실적 조회</span>
+										</a>
+									</div>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+
+		<div class="container user-container">
+			<section class="section__contents">
+				<div class="inner-wrap">
+					<div class="section-top">
+						<h3 class="section__title">근무 실적 조회</h3>
+						<div class="buttons">
+							<button type="button" class="button button__dept">부서별 조회</button>
+							<button type="button" class="button button__member">사원별 조회</button>
+						</div>
+					</div>
+
+					<div class="component-area">
+						<div class="component-box component-box-top">
+							<div class="select-month">
+								<button type="button" class="button__prev">
+									<span class="icon icon-triangle"></span>
+									<span class="blind">이전달</span>
+								</button>
+								<p>2020년 8월</p>
+								<button type="button" class="button__next">
+									<span class="icon icon-triangle"></span>
+									<span class="blind">다음달</span>
+								</button>
+							</div>
+							<ul class="lst-tab">
+								<li class="lst-tab__item on">
+									<a href="#" class="lst-tab__link">
+										<span class="icon icon-list"></span>
+										리스트
+									</a>
+								</li>
+								<li class="lst-tab__item">
+									<a href="#" class="lst-tab__link">
+										<span class="icon icon-calendar"></span>
+										달력
+									</a>
+								</li>
+								<li class="lst-tab__item">
+									<a href="#" class="lst-tab__link">
+										<span class="icon icon-chart"></span>
+										그래프
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="tab-cnt-wrap">
+							<div class="tab-cnt show">
+								<div class="component-box tab-cnt-wrap">
+									<div class="tab-cnt show">
+										<div class="table-wrap">
+											<table class="table">
+												<thead>
+													<tr>
+														<th>년월</th>
+														<th>부서명</th>
+														<th>기본 근무 시간</th>
+														<th>연장 근무 시간</th>
+														<th>총 근무 시간</th>
+														<th>주 평균 근로 시간</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr class="row">
+														<td>2020-08</td>
+														<td>
+															개발1팀
+															<button type="button" class="button button--small">
+																상세
+															</button>
+														</td>
+														<td>4시간</td>
+														<td>-</td>
+														<td>4시간</td>
+														<td>49.5시간</td>
+													</tr>
+													<tr class="row__sub show">
+														<td colspan="6">
+															<div class="table-sub-wrap">
+																<table class="table table__detail">
+																	<thead>
+																		<tr>
+																			<th>년월</th>
+																			<th>유연 근무 유형</th>
+																			<th>사원명</th>
+																			<th>기본 근무 시간</th>
+																			<th>연장 근무 시간</th>
+																			<th>총 근무 시간</th>
+																			<th>주 평균 근로 시간</th>
+																		</tr>
+																	</thead>
+																	<tbody>
+																		<tr class="row">
+																			<td>2020-08</td>
+																			<td>시차 출퇴근제</td>
+																			<td>홍길동 차장</td>
+																			<td>169.5시간</td>
+																			<td>50.5시간</td>
+																			<td>50.5시간</td>
+																			<td>50.5시간</td>
+																		</tr>
+																		<tr class="row">
+																			<td>2020-08</td>
+																			<td>시차 출퇴근제</td>
+																			<td>최수현 과장</td>
+																			<td>188.8시간</td>
+																			<td>60.0시간</td>
+																			<td>60.0시간</td>
+																			<td>60.0시간</td>
+																		</tr>
+																	</tbody>
+																</table>
+															</div>
+														</td>
+													</tr>
+													<tr class="row">
+														<td>2020-08</td>
+														<td>
+															개발2팀
+															<button type="button" class="button button--small">
+																상세
+															</button>
+														</td>
+														<td>8시간</td>
+														<td>2시간</td>
+														<td>8시간</td>
+														<td>51.7시간</td>
+													</tr>
+													<tr class="row__sub">
+														<td colspan="6">
+															<div class="table-sub-wrap">
+																<table class="table table__detail">
+																	<thead>
+																		<tr>
+																			<th>년월</th>
+																			<th>유연 근무 유형</th>
+																			<th>사원명</th>
+																			<th>기본 근무 시간</th>
+																			<th>연장 근무 시간</th>
+																			<th>총 근무 시간</th>
+																			<th>주 평균 근로 시간</th>
+																		</tr>
+																	</thead>
+																	<tbody>
+																		<tr class="row">
+																			<td>2020-08</td>
+																			<td>시차 출퇴근제</td>
+																			<td>홍길동 차장</td>
+																			<td>169.5시간</td>
+																			<td>50.5시간</td>
+																			<td>50.5시간</td>
+																			<td>50.5시간</td>
+																		</tr>
+																		<tr class="row">
+																			<td>2020-08</td>
+																			<td>시차 출퇴근제</td>
+																			<td>최수현 과장</td>
+																			<td>188.8시간</td>
+																			<td>60.0시간</td>
+																			<td>60.0시간</td>
+																			<td>60.0시간</td>
+																		</tr>
+																	</tbody>
+																</table>
+															</div>
+														</td>
+													</tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<td colspan="2">TOTAL</td>
+														<td>8시간</td>
+														<td>2시간</td>
+														<td>8시간</td>
+														<td>51.7시간</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+									</div>
+									<div class="tab-cnt">
+										<div class="calendar-wrap">
+											calendar
+										</div>
+									</div>
+									<div class="tab-cnt">
+										<div class="chart-wrap">
+											chart
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-cnt">
+								<div class="component-box">
+									<ul class="lst-tab">
+										<li class="lst-tab__item on">
+											<button type="button" class="button">
+												<span class="icon icon-list"></span>
+												리스트
+											</button>
+										</li>
+										<li class="lst-tab__item">
+											<button type="button" class="button">
+												<span class="icon icon-calendar"></span>
+												달력
+											</button>
+										</li>
+										<li class="lst-tab__item">
+											<button type="button" class="button">
+												<span class="icon icon-chart"></span>
+												그래프
+											</button>
+										</li>
+									</ul>
+								</div>
+								<div class="component-box tab-cnt-wrap">
+									<div class="tab-cnt show">
+										<div class="table-wrap">
+											<table class="table table-hover">
+												<thead>
+													<tr>
+														<th>년월</th>
+														<th>사원명</th>
+														<th>기본 근무 시간</th>
+														<th>연장 근무 시간</th>
+														<th>총 근무 시간</th>
+														<th>주 평균 근로 시간</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr class="row">
+														<td>2020-08</td>
+														<td>김정환 차장
+															<button type="button" class="button">상세보기</button>
+														</td>
+														<td>4시간</td>
+														<td></td>
+														<td>4시간</td>
+														<td>49.5시간</td>
+													</tr>
+													<tr class="row">
+														<td>2020-08</td>
+														<td>최수현 과장
+															<button type="button" class="button">상세보기</button>
+														</td>
+														<td>8시간</td>
+														<td>2시간</td>
+														<td>8시간</td>
+														<td>51.7시간</td>
+													</tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<th colspan="2">TOTAL</th>
+														<td>8시간</td>
+														<td>2시간</td>
+														<td>8시간</td>
+														<td>51.7시간</td>
+													</tr>
+												</tfoot>
+											</table>
+											<table class="table table-hover table__detail">
+												<thead>
+													<tr>
+														<th>일자</th>
+														<th>유연 근무 유형</th>
+														<th>상태</th>
+														<th>출/퇴근 시간</th>
+														<th>기본 근무 시간</th>
+														<th>연장 근무 시간</th>
+														<th>총 근무 시간</th>
+														<th>연차(시간)</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr class="row">
+														<td>2020-08-03 월</td>
+														<td>시차 출퇴근제</td>
+														<td>
+															<ul class="lst-status">
+																<li class="lst-status__item show">정상</li>
+																<li class="lst-status__item">연차</li>
+																<li class="lst-status__item">출장</li>
+																<li class="lst-status__item">시간연차</li>
+																<li class="lst-status__item">반반차</li>
+																<li class="lst-status__item show">반차</li>
+															</ul>
+														</td>
+														<td>4시간</td>
+														<td></td>
+														<td>4시간</td>
+														<td>0.5시간</td>
+													</tr>
+													<tr class="row">
+														<td>2020-08</td>
+														<td>시차 출퇴근제</td>
+														<td>
+															<ul class="lst-status">
+																<li class="lst-status__item show">정상</li>
+																<li class="lst-status__item">연차</li>
+																<li class="lst-status__item">출장</li>
+																<li class="lst-status__item">시간연차</li>
+																<li class="lst-status__item">반반차</li>
+																<li class="lst-status__item">반차</li>
+															</ul>
+														</td>
+														<td>8시간</td>
+														<td>2시간</td>
+														<td>8시간</td>
+														<td></td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+									<div class="tab-cnt">
+										<div class="calendar-wrap">
+											calendar
+										</div>
+									</div>
+									<div class="tab-cnt">
+										<div class="chart-wrap">
+											chart
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+
+	</div>
+
+	<script>
+
+	</script>
+</body>
+
+</html>
